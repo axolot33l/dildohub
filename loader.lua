@@ -8,8 +8,8 @@ Junkie.provider = "blahaj"
 
 -- Game scripts config — {placeId, scriptUrl}
 local gameScripts = {
-    -- {97598239454123, "https://api.jnkie.com/api/v1/luascripts/public/9d7ce4a538a05c68052f8f6fc715ed1e8deefcf1646551c8f7784778bd973194/download"},
-    -- {0, "https://raw.githubusercontent.com/axolot33l/dildohub/refs/heads/main/loader.lua"}, -- 0 = fallback for unlisted games
+    {97598239454123, "https://api.jnkie.com/api/v1/luascripts/public/9d7ce4a538a05c68052f8f6fc715ed1e8deefcf1646551c8f7784778bd973194/download"},
+    {0, "https://raw.githubusercontent.com/axolot33l/dildohub/refs/heads/main/loader.lua"}, -- 0 = fallback for unlisted games
 }
 
 local function getScriptUrl()
